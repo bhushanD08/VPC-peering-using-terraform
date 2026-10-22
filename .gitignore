@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+
+# Variable files may contain environment-specific or sensitive values
+*.tfvars
+*.tfvars.json
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
