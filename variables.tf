@@ -63,17 +63,20 @@ variable "instance_type" {
 variable "first_key_name" {
   description = "Name of the SSH key pair for First VPC instance (us-east-1)"
   type        = string
-  default     = ""
+  default     = null
+  nullable    = true
 }
 
 variable "second_key_name" {
   description = "Name of the SSH key pair for Second VPC instance (ap-south-1)"
   type        = string
-  default     = ""
+  default     = null
+  nullable    = true
 }
 
 variable "third_key_name" {
   description = "Name of the SSH key pair for Third VPC instance (ca-central-1)"
   type        = string
-  default     = ""
+  default     = null
+  nullable    = true
 }
